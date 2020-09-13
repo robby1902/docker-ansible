@@ -10,7 +10,7 @@
         - python
         - python-docker
       when:
-        - ansible_distrbution == "Ubuntu"
+        - ansible_distribution == "Ubuntu"
     - name: install docker python centos
       yum:
          name: python-docker
